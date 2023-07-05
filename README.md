@@ -12,7 +12,5 @@
   <li>Mission Complete😎</li>
 </ol>
 
-<h2>Support development ❤️</h2>
-<a href="https://www.buymeacoffee.com/jordanej20o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 <h2><b>**I AM NOT RESPONSIBLE FOR ANYTHING YOU DO WITH THIS CODE. I CAN ALMOST GUARANTEE THAT IT IS ILLEGAL TO USE IN ALL COUNTRIES. I DESIGNED THIS FOR FUN AND RESEARCH PURPOSES ONLY.**</b></h2>
